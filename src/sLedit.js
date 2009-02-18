@@ -3,9 +3,9 @@
 	///////////////////////////////////////////////////////////////////////////
 	window.addEvent('domready', function(){
 		var sLeditOpts = { 
-						  sLclass: '.sLedit', // editable class
-						  ajaxUrl: '/ajax/update.php' // server side processing
-						  }; var edit = new sLedit(sLeditOpts);
+				  sLclass: '.sLedit', // editable class
+				  ajaxUrl: '/ajax/update.php' // server side processing
+				  }; var edit = new sLedit(sLeditOpts);
 		});
 
 	//////////////////////////////////////////////////////////////////////////	
